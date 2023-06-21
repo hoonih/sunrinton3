@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_main_home"
+        android:icon="@drawable/home"
+        android:title="홈"/>
+    <item android:id="@+id/menu_main_audio"
+        android:icon="@drawable/audio"
+        android:title="오디오"/>
+    <item android:id="@+id/menu_main_search"
+        android:icon="@drawable/search"
+        android:title="검색"/>
+    <item android:id="@+id/menu_main_inbox"
+        android:icon="@drawable/inbox"
+        android:title="보관"/>
+    <item android:id="@+id/menu_main_account"
+        android:icon="@drawable/account"
+        android:title="내 정보"/>
+</menu>
