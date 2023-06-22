@@ -20,6 +20,5 @@ class test : AppCompatActivity() {
         val id = intent.getStringExtra("id")
         val pw = intent.getStringExtra("pw")
         binding.edittext1.setText("아이디: ${id}\n패스워드: ${pw}")
-
     }
 }

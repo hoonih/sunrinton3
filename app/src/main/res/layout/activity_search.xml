@@ -67,8 +67,7 @@
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-
-        android:id="@+id/bnv_main"
+        android:id="@+id/bnv_main2"
         android:layout_width="0dp"
         android:layout_height="72dp"
         android:background="@drawable/menubar"
@@ -154,7 +153,7 @@
         android:background="@drawable/searchbox"/>
     
     <TextView
-        android:id="@+id/인기스토리"
+        android:id="@+id/popstory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="인기 스토리"
@@ -165,18 +164,47 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="18dp"
         android:layout_marginStart="28dp"/>
+
     <View
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:background="@drawable/arrow_forward_ios"
-        app:layout_constraintStart_toEndOf="@+id/인기스토리"
-        app:layout_constraintTop_toTopOf="@+id/인기스토리"
-        app:layout_constraintBottom_toBottomOf="@+id/인기스토리"
+        app:layout_constraintStart_toEndOf="@+id/popstory"
+        app:layout_constraintTop_toTopOf="@+id/popstory"
+        app:layout_constraintBottom_toBottomOf="@+id/popstory"
         android:layout_marginStart="3dp"/>
+
+    <ImageView
+        android:id="@+id/harry"
+        android:layout_width="370dp"
+        android:layout_height="105dp"
+        android:src="@drawable/harrypoter"
+        app:layout_constraintTop_toBottomOf="@+id/popstory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/gs25"
+        android:layout_width="370dp"
+        android:layout_height="105dp"
+        android:src="@drawable/gs25"
+        app:layout_constraintTop_toBottomOf="@+id/harry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <ImageView
+        android:id="@+id/paint"
+        android:layout_width="370dp"
+        android:layout_height="105dp"
+        android:src="@drawable/paint"
+        app:layout_constraintTop_toBottomOf="@+id/gs25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
     
-    <FrameLayout
-        android:layout_width="370dp b "
-        android:layout_height=""
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
