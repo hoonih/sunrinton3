@@ -144,6 +144,39 @@
         android:fontFamily="@font/suit"
         android:text="박지윤"
         android:textSize="14dp"
+        android:textFontWeight="500"
         />
+    <View
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/searchbox"/>
+    
+    <TextView
+        android:id="@+id/인기스토리"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인기 스토리"
+        android:fontFamily="@font/suit"
+        android:textFontWeight="600"
+        android:textColor="#F5F7FF"
+        app:layout_constraintTop_toTopOf="@+id/searchbox"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="28dp"/>
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/arrow_forward_ios"
+        app:layout_constraintStart_toEndOf="@+id/인기스토리"
+        app:layout_constraintTop_toTopOf="@+id/인기스토리"
+        app:layout_constraintBottom_toBottomOf="@+id/인기스토리"
+        android:layout_marginStart="3dp"/>
+    
+    <FrameLayout
+        android:layout_width="370dp b "
+        android:layout_height=""
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
