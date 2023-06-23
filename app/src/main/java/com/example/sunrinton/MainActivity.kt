@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.loginbutton.setOnClickListener {
             Toast.makeText(this, "버튼을 눌렀습니다. ", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, search::class.java)
+            val intent = Intent(this, MainFrameActivity::class.java)
             var id = binding.edittextid.text.toString()
             var pw = binding.edittextpassword.text.toString()
 
