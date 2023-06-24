@@ -180,12 +180,13 @@
                 android:layout_marginTop="610dp"
                 android:layout_marginStart="26dp">
             </ImageButton>
-            <Button
-                android:layout_width="wrap_content"
+            <FrameLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="785dp"
-                android:layout_marginStart="-220dp">
-            </Button>
+                android:layout_marginTop="780dp"
+                android:layout_marginStart="-375dp">
+
+            </FrameLayout>
         </LinearLayout>
     </ScrollView>
 
