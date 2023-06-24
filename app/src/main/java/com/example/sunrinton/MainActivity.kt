@@ -13,13 +13,14 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var firebaseAuth: FirebaseAuth
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+
 
 
         firebaseAuth = FirebaseAuth.getInstance()
@@ -29,9 +30,9 @@ class MainActivity : AppCompatActivity() {
             val email = binding.edittextemail.text.toString()
             val pass = binding.edittextpassword.text.toString()
 
-            if (email.isNotEmpty() && pass.isNotEmpty())
-            {
-                    firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {                 //파이어베이스 회원가입
+            if (email.isNotEmpty() && pass.isNotEmpty()) {
+                firebaseAuth.signInWithEmailAndPassword(email, pass)
+                    .addOnCompleteListener {                 //파이어베이스 회원가입
                         if (it.isSuccessful) {
                             Toast.makeText(this, "로그인을 성공하였습니다", Toast.LENGTH_SHORT).show()
 
@@ -44,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-            }else{
+            } else {
                 Toast.makeText(this, "모든 칸을 입력해 주세요.", Toast.LENGTH_SHORT).show()
 
             }
@@ -55,7 +56,6 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-    val lol = 0
 
 
 }
