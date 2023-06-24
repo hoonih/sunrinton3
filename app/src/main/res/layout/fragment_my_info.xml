@@ -14,7 +14,7 @@
         android:src="@drawable/mew"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@id/framem"
         android:layout_marginStart="30dp">
     </ImageView>
     <TextView
@@ -27,7 +27,8 @@
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/meww"
-        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toTopOf="@id/framem"
+        android:layout_marginBottom="10dp"
         android:layout_marginStart="22dp">
     </TextView>
     <TextView

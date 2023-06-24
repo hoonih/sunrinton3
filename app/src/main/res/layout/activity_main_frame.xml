@@ -7,7 +7,7 @@
     tools:context=".MainFrameActivity">
 
 
-    <FrameLayout
+    <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/fl_con"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -25,6 +25,7 @@
         app:itemIconTint="@drawable/menu_click_button"
         app:itemTextColor="@drawable/menu_click_button"
         app:labelVisibilityMode="labeled"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
