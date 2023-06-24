@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909648429448",
+    "project_id": "snackaudiobook",
+    "storage_bucket": "snackaudiobook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909648429448:android:5929d4d762abcecc57ba3d",
+        "android_client_info": {
+          "package_name": "com.example.sunrinton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909648429448-pj7mssdf32ler85b3sob53ncotqosdrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKAon6WNGDA_9SQ15UOQ-Gd7MVKx9AWKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909648429448-pj7mssdf32ler85b3sob53ncotqosdrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

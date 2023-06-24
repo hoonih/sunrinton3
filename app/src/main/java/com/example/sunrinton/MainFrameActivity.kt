@@ -23,6 +23,11 @@ class MainFrameActivity : AppCompatActivity() {
                         supportFragmentManager.beginTransaction()
                             .replace(R.id.fl_con, BlankFragment1).commit()
                     }
+                    R.id.menu_main_account -> { // 다른 프래그먼트 화면으로 이동하는 기능
+                        val BlankFragment1 = InfoFragment()
+                        supportFragmentManager.beginTransaction()
+                            .replace(R.id.fl_con, BlankFragment1).commit()
+                    }
                 }
                 true
             }
