@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="45dp">
     </ImageView>
     <TextView
         android:id="@id/biglemont"
@@ -204,7 +204,7 @@
         android:layout_height="1dp"
         android:background="#3F3E3C"
         app:layout_constraintTop_toBottomOf="@id/dddddd"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="10dp">
     </FrameLayout>
     <TextView
         android:id="@+id/secondframe"
@@ -216,37 +216,11 @@
         android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@id/firstframe"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginStart="30dp">
     </TextView>
-    <FrameLayout
-        android:id="@+id/secondframe2"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#3F3E3C"
-        app:layout_constraintTop_toBottomOf="@id/secondframe"
-        android:layout_marginTop="5dp">
-    </FrameLayout>
-    <TextView
-        android:id="@+id/thirdframe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="줄거리"
-        android:fontFamily="@font/suitsemibold"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/secondframe2"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="30dp">
-    </TextView>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#3F3E3C"
-        app:layout_constraintTop_toBottomOf="@id/thirdframe"
-        android:layout_marginTop="5dp">
-    </FrameLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
