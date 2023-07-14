@@ -19,7 +19,7 @@ class FragmentPageAdapter (
         else if (position == 1)
             SearchFragment()
         else if (position == 2)
-            SaveFragment()
+            StorageFragment()
         else
             InfoFragment()
 
