@@ -33,7 +33,7 @@
         android:id="@+id/saveaudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="보관한 오디오"
+        android:text="오디오 리스트"
         android:textColor="@color/white"
         android:fontFamily="@font/suitsemibold"
         android:textSize="16sp"
@@ -42,124 +42,136 @@
         android:layout_marginTop="25dp"
         android:layout_marginStart="35dp">
     </TextView>
-    <TextView
-        android:id="@+id/buyaudio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="구매한 오디오"
-        android:textColor="@color/white"
-        android:fontFamily="@font/suitsemibold"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/saveaudio"
-        android:layout_marginTop="195dp"
-        android:layout_marginStart="35dp">
-    </TextView>
-    <TextView
-        android:id="@+id/likeaudio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="좋아요한 오디오"
-        android:textColor="@color/white"
-        android:fontFamily="@font/suitsemibold"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buyaudio"
-        android:layout_marginTop="195dp"
-        android:layout_marginStart="35dp">
-    </TextView>
+
+
     <ImageButton
-        android:id="@+id/seirab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/seino"
-        android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/saveaudio"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp">
-    </ImageButton>
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/movemind"
-        android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/saveaudio"
-        app:layout_constraintStart_toEndOf="@id/seirab"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp">
-    </ImageButton>
-    <ImageButton
+        android:id="@+id/audio1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/lifespace"
         android:background="#2E2E2E"
         app:layout_constraintTop_toBottomOf="@+id/saveaudio"
-        app:layout_constraintEnd_toStartOf="@id/seirab"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp">
-    </ImageButton>
-    <ImageButton
-        android:id="@+id/happylemonb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/happylemon"
-        android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/buyaudio"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp">
-    </ImageButton>
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/chaehorr"
-        android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/buyaudio"
-        app:layout_constraintStart_toEndOf="@id/happylemonb"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp">
-    </ImageButton>
+        android:layout_marginStart="35dp"/>
     <ImageButton
+        android:id="@+id/audio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/worldendcafe"
+        android:src="@drawable/lifespace"
         android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/buyaudio"
-        app:layout_constraintEnd_toStartOf="@id/happylemonb"
+        app:layout_constraintTop_toBottomOf="@+id/saveaudio"
+        app:layout_constraintStart_toEndOf="@+id/audio1"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp">
-    </ImageButton>
+        android:layout_marginStart="20dp"/>
     <ImageButton
-        android:id="@+id/moneyff"
+        android:id="@+id/audio3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/moneyfriend"
+        android:src="@drawable/lifespace"
         android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/likeaudio"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveaudio"
+        app:layout_constraintStart_toEndOf="@+id/audio2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageButton
+        android:id="@+id/audio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lifespace"
+        android:background="#2E2E2E"
+        app:layout_constraintTop_toBottomOf="@+id/audio1"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp">
-    </ImageButton>
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="35dp"/>
     <ImageButton
+        android:id="@+id/audio5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/flow"
+        android:src="@drawable/lifespace"
         android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/likeaudio"
-        app:layout_constraintStart_toEndOf="@id/moneyff"
+        app:layout_constraintTop_toBottomOf="@+id/audio1"
+        app:layout_constraintStart_toEndOf="@+id/audio1"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp">
-    </ImageButton>
+        android:layout_marginStart="20dp"/>
     <ImageButton
+        android:id="@+id/audio6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/harryporter"
+        android:src="@drawable/lifespace"
         android:background="#2E2E2E"
-        app:layout_constraintTop_toBottomOf="@+id/likeaudio"
-        app:layout_constraintEnd_toStartOf="@id/moneyff"
+        app:layout_constraintTop_toBottomOf="@+id/audio1"
+        app:layout_constraintStart_toEndOf="@+id/audio2"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp">
-    </ImageButton>
+        android:layout_marginStart="20dp"/>
+    <ImageButton
+        android:id="@+id/audio7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lifespace"
+        android:background="#2E2E2E"
+        app:layout_constraintTop_toBottomOf="@+id/audio4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="35dp"/>
+    <ImageButton
+        android:id="@+id/audio8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lifespace"
+        android:background="#2E2E2E"
+        app:layout_constraintTop_toBottomOf="@+id/audio4"
+        app:layout_constraintStart_toEndOf="@+id/audio1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+    <ImageButton
+        android:id="@+id/audio9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lifespace"
+        android:background="#2E2E2E"
+        app:layout_constraintTop_toBottomOf="@+id/audio4"
+        app:layout_constraintStart_toEndOf="@+id/audio2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/pagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/audio8"
+        android:textSize="20dp"
+        android:fontFamily="@font/suitsemibold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◁"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/pagetext"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintTop_toTopOf="@id/pagetext"
+        android:fontFamily="@font/suitsemibold"
+        />
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▷"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/pagetext"
+        android:layout_marginStart="43dp"
+        app:layout_constraintTop_toTopOf="@id/pagetext"
+        android:fontFamily="@font/suitsemibold"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
